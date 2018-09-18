@@ -1,0 +1,53 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+#name {
+    float: left;
+    margin: 0 145px;
+    background: #4aaaa5;
+}
+
+div {
+    background: 
+}
+
+section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#myPic {
+    float: left;
+}
+
+.navLink {
+    float: left;
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    right: 0
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #666;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+#copyright {
+    margin-bottom: 0;
+}
