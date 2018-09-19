@@ -5,11 +5,14 @@
 }
 
 body {
-
+    margin-bottom: 85px;
+    background: #32547a;
 }
 
 header {
-
+    background: oldlace;
+    margin: 0;
+    padding: 0;
 }
 
 #name {
@@ -19,12 +22,13 @@ header {
 }
 
 div {
-
+    
 }
 
 section {
     max-width: 960px;
     margin: 0 auto;
+    background: peru;
 }
 
 #myPic {
@@ -56,6 +60,7 @@ footer {
     width: 100%;
     height: 60px;
     text-align: center;
+    border-top: 15px solid #4aaaa5;
 }
 
 #copyright {
