@@ -18,23 +18,9 @@ header {
 
 #name {
     float: left;
-    margin: 0 145px;
+    margin: 30px 145px 0 80px;
+    padding: 10px;
     background: #b2cc14;
-}
-
-section {
-    max-width: 960px;
-    margin: 0 auto;
-    background:oldlace;
-}
-
-#myPic {
-    float: left;
-    padding: 0 20px 20px 0;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .navLink {
@@ -43,7 +29,25 @@ ul {
     padding: 0 15px;
     position: relative;
     left: 250px;
-    top: 15px;
+    top: 50px;
+}
+
+section {
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background:oldlace;
+}
+
+h2 {
+    padding-bottom: 15px;
+    border-bottom: solid 2px black;
+}
+
+#myPic {
+    float: left;
+    padding: 0 20px 20px 0;
 }
 
 .label {
