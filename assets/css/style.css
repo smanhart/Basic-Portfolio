@@ -6,7 +6,7 @@
 
 body {
     margin-bottom: 85px;
-    background-image: url(../images/connectwork.png);
+    background-image: url(../images/hypnotize.png);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,7 +24,8 @@ header {
     float: left;
     margin: 30px 145px 0 80px;
     padding: 10px;
-    background: #b2cc14;
+    background:#56384b;
+    color: #d6bda9;
 }
 
 .navLink {
@@ -41,8 +42,8 @@ section {
     padding: 0 20px 70px 20px;
     margin: 0 auto;
     box-sizing: border-box;
-    background: #dddbdb
-    /* background:oldlace; */
+    /* background: #dddbdb */
+    background: oldlace;
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 }
 
 .label {
-    background: #464d59;
+    background: #816288;
     color: oldlace;
     text-align: center; 
     width: 250px;
@@ -92,19 +93,26 @@ input, textarea {
     height: 300px;
 }
 
+button {
+    background-color: #816288;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    color: #d6bda9;
+}
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #666;
     width: 100%;
-    height: 60px;
+    height: 40px;
     text-align: center;
-    border-top: 15px solid #b2cc14;
+    border-top: 15px solid #56384b;
 }
 
 #copyright {
     margin-bottom: 0;
-    padding-top: 20px;
     color:oldlace;
 }
