@@ -16,13 +16,17 @@ h1, h2, .navLink {
 
 header {
     background: oldlace;
-    /* margin: 0;
-    padding: 0; */
+    width: 100%;
+}
+
+.top {
+    width: 960px;
+    margin: 0 auto;
 }
 
 #name {
     float: left;
-    margin: 30px 145px 0 80px;
+    margin: 30px 0 0 0;
     padding: 10px;
     background:#56384b;
     color: #d6bda9;
@@ -54,6 +58,7 @@ h2 {
 #myPic {
     float: left;
     padding: 0 20px 20px 0;
+    height: 200px;
 }
 
 .label {
